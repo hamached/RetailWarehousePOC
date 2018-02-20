@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.dhamacher.retailwarehousepoc.model.Car" table="CARS" catalog="app">
+        <id name="Id" type="java.lang.Long">
+            <column name="Id" />
+            <generator class="identity" />
+        </id>
+        <property name="Name" type="string" column="Name" />
+        <property name="Price" type="integer" column="Price" />
+    </class>
+</hibernate-mapping>

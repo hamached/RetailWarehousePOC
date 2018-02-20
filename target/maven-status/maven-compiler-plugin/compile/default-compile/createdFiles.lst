@@ -1,0 +1,7 @@
+com\dhamacher\retailwarehousepoc\FXMLController.class
+com\dhamacher\retailwarehousepoc\model\Product.class
+com\dhamacher\retailwarehousepoc\HomeController.class
+com\dhamacher\retailwarehousepoc\HibernateUtil.class
+com\dhamacher\retailwarehousepoc\model\Car.class
+com\dhamacher\retailwarehousepoc\MainApp.class
+com\dhamacher\retailwarehousepoc\CarService.class
